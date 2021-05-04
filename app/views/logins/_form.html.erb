@@ -1,0 +1,30 @@
+<%= form_with(model: login) do |form| %>
+  <% if login.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(login.errors.count, "error") %> prohibited this login from being saved:</h2>
+
+      <ul>
+        <% login.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field col-md-3">
+    <div class="mt-3">
+      <%= form.label :username %>
+      <%= form.text_field :username ,{:class=>"form-control"}%>
+
+    </div>
+    <div class="mt-3">
+      <%= form.label :password %>
+      <%= form.password_field :password ,{:class=>"form-control"}%>
+    </div>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "login",{:class=>"btn btn-outline-success rounded px-4"}%>
+    <%= submit_tag("Reset", { :name => 'reset', :id => 'reset', :type => 'reset', :class => 'btn btn-outline-secondary px-4'}) %> 
+  </div>
+<% end %>
