@@ -2,11 +2,10 @@
 
 # This project is deployed on heroku please check out the link below !
 
-#### Any comments and suggestions are highly appreciated
 
 ## View Deployed demo here
    * https://ideabreed-demo.herokuapp.com/
-   * for testing login system > add /logins
+   * for testing login system visit : https://ideabreed-demo.herokuapp.com/logins
    
 
 
