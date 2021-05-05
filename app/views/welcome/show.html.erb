@@ -1,16 +1,20 @@
-
-
 <style>
 body{
-  margin:0px;
-  padding:0px;
-  background-color:#e7f7e3;
+    margin:0px;
+    padding:0px;
+    
+    background-color:#e7f7e3;
+   
+  }
+  nav{
+    background-color:#F8F9FA;
+  }
+  .lol:hover{
+    opacity:75%;
+    cursor:pointer;
+    transform: scale(1);
 
-}
-nav{
-  background-color:#F8F9FA;
-}
-
+  }
 </style>
 <nav class="navbar navbar-expand-lg shadow-sm ">
   <div class="container">
@@ -78,7 +82,7 @@ nav{
   <div>
     <div class="row mt-2 d-flex justify-content-center h-100">
       
-      <div class="col-md-3 shadow-lg card p-4 m-1 rounded">
+      <div class="col-md-3 shadow-lg card p-4 m-1 rounded lol">
         <div class="d-flex justify-content-center"><img src="./images/ruby.png" class="rounded-circle"></div>
         <div class="text-center"><strong>Ruby on Rails Consulting</strong></div>
         <small class="text-center mt-3">We have 6 years of Ruby on rails Development and consulting experience</small>
@@ -138,10 +142,10 @@ nav{
       <div style="background-color:#F8F7FA" class="p-5 rounded mb-5 col-md-5" >
         <p class="m-3">Send us a message</p>
         <form class="col-md-10">
-          <input type="text" class="form-control mt-2 shadow" >
-          <input type="text" class="form-control mt-2 shadow">
-          <input type="text" class="form-control mt-2 shadow">
-          <input type="textbox" class="form-control mt-2 shadow p-5"  >
+          <input type="text" class="form-control mt-2 shadow" placeholder="Your name" >
+          <input type="text" class="form-control mt-2 shadow" placeholder="Your email">
+          <input type="text" class="form-control mt-2 shadow" placeholder="Your Address">
+          <textarea type="textbox" class="form-control mt-2 shadow" placeholder="Message" row="10"  ></textarea>
 
           <input type="submit" class="btn mt-4 text-light rounded-pill px-4"  style="background-color:#43A62D;" value = "submit" >
         </form>
