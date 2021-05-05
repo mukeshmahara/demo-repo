@@ -11,10 +11,10 @@
     </div>
   <% end %>
 
-  <div class="field col-md-3">
-    <div class="mt-3">
+  <div class="field col-md-12">
+    <div class="mt-2">
       <%= form.label :username %>
-      <%= form.text_field :username ,{:class=>"form-control"}%>
+      <%= form.text_field :username ,{:class=>"form-control "}%>
 
     </div>
     <div class="mt-3">
@@ -23,7 +23,7 @@
     </div>
   </div>
 
-  <div class="actions">
+  <div class="actions col-md-12">
     <%= form.submit "login",{:class=>"btn btn-outline-success rounded px-4"}%>
     <%= submit_tag("Reset", { :name => 'reset', :id => 'reset', :type => 'reset', :class => 'btn btn-outline-secondary px-4'}) %> 
   </div>
