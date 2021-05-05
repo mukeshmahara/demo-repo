@@ -13,4 +13,14 @@ development:
   username: root
   password: cipher
 
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: d68d83cpr00odn
+  host: ec2-184-73-198-174.compute-1.amazonaws.com
+  pool: 5
+  username: nokkaopoaoetdz
+  password: d2c7273fca2e66ff6c80ed0e3403468362102b0450f711503f6a020bccc8a7f6
+
+
 
