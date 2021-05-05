@@ -21,19 +21,19 @@
    ### Creating user
    * $ sudo -u postgres createuser <username>
    
-   ### Creating Database
+## Creating Database
    * $ sudo -u postgres createdb <dbname>
    
-   ### Giving the user a password
-   * $ sudo -u postgres psql   
-   * psql=# alter user <username> with encrypted password '<password>';
+## Giving the user a password
+  * $ sudo -u postgres psql   
+  * psql=# alter user <username> with encrypted password '<password>';
    
-   ### Granting privileges on database
-   * psql=# grant all privileges on database <dbname> to <username> ;
+## Granting privileges on database
+  * psql=# grant all privileges on database <dbname> to <username> ;
 
 
 ## to run 
-   * Use command > rails server
+  * Use command > rails server
 
 
 
