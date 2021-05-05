@@ -1,9 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# This project is deployed on heroku please check out the link below !
 
-Things you may want to cover:
+####Any comments and suggestions are highly appreciated
+
+## View Deployed demo here
+   * https://ideabreed-demo.herokuapp.com/
+   * for testing login system > add /logins
+   
+
 
 ## Ruby version
     * ruby 3.0.1p64 (2021-04-05 revision 0fb782ee38) [x86_64-linux]
@@ -11,8 +16,7 @@ Things you may want to cover:
 ## System dependencies
    * Bootstrap
    * Fontawesome-scss-rails
-
-## Configuration
+   * Database used Postgresql
 
 ## Database creation
    ### Creating user
@@ -28,13 +32,10 @@ Things you may want to cover:
    ### Granting privileges on database
    * psql=# grant all privileges on database <dbname> to <username> ;
 
-## Database initialization
 
-## How to run the test suite
-   * Use command > rails server to start the web server locally
+## to run 
+   * Use command > rails server
 
-## Services (job queues, cache servers, search engines, etc.)
 
-## Deployment instructions
 
 
