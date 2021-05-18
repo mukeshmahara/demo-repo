@@ -10,9 +10,9 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
-    
-    
-    
+
+    <script src="https://kit.fontawesome.com/c273cf22a9.js" crossorigin="anonymous"></script>
+   
 
     <script src="https://kit.fontawesome.com/c273cf22a9.js" crossorigin="anonymous"></script>
    
@@ -20,11 +20,33 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     
-   </head>
+  </head>
+
+  <style>
+    body,html{
+      margin:0px;
+      padding:0px; 
+      background-color:#e7f7e3;
+    }
+
+    nav{
+      background-color:#F8F9FA;
+    }
+
+    .lol:hover{
+      opacity:75%;
+      cursor:pointer;
+      transform: scale(1);
+
+    }
+  </style>
 
   <body>
-    <%= yield %>
-    
+  
+    <div class=" container-fluid">
+      <%= yield %>
+    </div>  
   
   </body>
+
 </html>

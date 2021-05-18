@@ -1,48 +1,4 @@
-<style>
-body{
-    margin:0px;
-    padding:0px;
-    
-    background-color:#e7f7e3;
-   
-  }
-  nav{
-    background-color:#F8F9FA;
-  }
-  .lol:hover{
-    opacity:75%;
-    cursor:pointer;
-    transform: scale(1);
-
-  }
-</style>
-<nav class="navbar navbar-expand-lg shadow-sm ">
-  <div class="container">
-    <a class="navbar-brand mx-5 bg-light" href="#"><img src="./images/ideabreed_icon.png" height="80px" width="80px"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="right ">
-      <div class="collapse navbar-collapse m-4" id="navbarNav">
-      <ul class="navbar-nav ">
-        <li class="nav-item ">
-          <a class="nav-link px-5 active bg-light text-success" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-5 bg-light text-success" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-5 bg-light text-success" href="#">Service</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-5 bg-light text-success" href="#">Contact</a>
-        </li>
-      </ul>
-
-    </div>
-    </div>
-  </div>
-</nav>
+<%= render 'partials/header' %>
 
 <div class="container-fluid">
   <div class="container">
@@ -53,8 +9,6 @@ body{
           Built on time within your <span style="color:#43A62D">Budget!</span>  
         </h1>
           
-        
-
         <small class="d-flex mt-4 " >At IdeaBreed we have a passion of turnning idea into reality. Our world class Team is fluent
           in Ruby on Rails, Python, Node.js,React,React Native, IOS, flutter, Android and we are ready to design
           ,buid and train so your product is rock-solid and user-friendly
